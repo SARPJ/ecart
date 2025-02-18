@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.UpperHeader{
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerdiv{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 90px;
+}
+.UpperHeader a{
+    color: white;
+}
+.UpperHeader span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.headerdiv p{
+     margin-bottom: 0;
+}
+
+.LowerHeader{
+    border-bottom: 1px solid gray;
+    padding: 10px 100px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}
+
+.inner-head{
+    gap: 30%;
+}
+
+.LowerHeader .search input{
+    border: none;
+    background-color: rgb(228, 228, 228);
+}
+.LowerHeader .search .search-bar{
+    border: none;
+    background-color: rgb(228, 228, 228);
+}
+.LowerHeader .menu{
+    display: none;
+}
+
+@media only screen and (max-width: 920px) {
+    .LowerHeader .menu{
+        display: block;
+    }
+}
+/* ....................................Signup page.......................................................... */
+
+section{
+    padding: 100px 0;
+}
+
+.side-image{
+    border: 2px solid red;
+}
+.side-image img{
+    width: -webkit-fill-available;
+    height: 100%;
+}
+.container form div input{
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: unset;
+}
+
+.sign_google{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+/* .................................................Footer...................................................... */
+footer{
+    background-color: black;
+    color: white;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 400;
+}
+.UprFooter{
+    padding: 50px 0;
+}
+
+.LwrFooter{
+    background-color: rgb(7, 7, 7);
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgb(46, 46, 46);
+}
+.footr-mail{
+    display: flex;
+    border: 2px solid gray;
+    padding: 5px 10px;
+}
+.footr-mail input{
+    background-color: transparent;
+    border: none;
+}
