@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 import './file.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -18,21 +19,21 @@ function header() {
     <div className='LowerHeader ' >
       <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container-fluid inner-head">
-      <link className="navbar-brand logo" href="/">Exclusive</link>
+      <Link className="navbar-brand logo" to="/">Exclusive</Link>
     
       <div className="collapse navbar-collapse " id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <link className="nav-link active" aria-current="page" href="/">Home</link>
+              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <link className="nav-link" href="/">Contact</link>
+              <Link className="nav-link" to="/">Contact</Link>
             </li>
             <li className="nav-item">
-              <link className="nav-link" href="/">About</link>
+              <Link className="nav-link" to="/">About</Link>
             </li>
             <li className="nav-item">
-              <link className="nav-link" href="/signup">Signup</link>
+              <Link className="nav-link" to="/signup">Signup</Link>
             </li>
         </ul>
         <form className="d-flex ">
