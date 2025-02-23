@@ -25,7 +25,7 @@ function footer() {
           <a className=" text-white" href="/">Login / Register</a>
           <a className=" text-white" href="/">Cart</a>
           <a className=" text-white" href="/">Wishlist</a>
-          <a className=" text-white" href="/">Shop</a>
+          <a className=" text-white a" href="/">Shop</a>
          
           </div>
           <div className='col d-flex flex-column gap-3'>

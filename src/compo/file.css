@@ -5,7 +5,7 @@
 }
 .UpperHeader{
     width: 100%;
-    background-color: #003300;
+    background-color: #000000;
     height: fit-content;
     color: whitesmoke;
     padding: 10px;
@@ -34,7 +34,7 @@
 .LowerHeader{
     border-bottom: 1px solid gray;
     padding: 10px 100px;
-    background-color: #DAF7A6;
+    /* background-color: gray; */
 }
 
 .logo{
