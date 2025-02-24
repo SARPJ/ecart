@@ -67,15 +67,70 @@ a{
         display: block;
     }
 }
+/* ....................................Home page.......................................................... */
+
+.b-parent{
+    width: 100% !important;
+}
+.category{
+    width: 20%;    
+    /* border: 2px solid red; */
+    border-right: 1px solid gray;
+}
+
+.banner {
+    width: 70%;
+    height: 40vh;
+    /* border: 2px solid rgb(17, 0, 255); */
+  }
+  
+  .slider div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+  
+  .slider img {
+    max-width: 100%;
+    /* max-height: 100%; */
+    object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 920px) {
+    .b-parent{
+        flex-direction: column;
+    }
+    .badge{
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3px;
+        border-bottom: 1px solid gray;
+    }
+    .badge li{
+        border: 2px solid gray !important;
+    }
+    .category{
+        border: none;
+        /* padding: 20px; */
+        margin-bottom: 20px;
+    }
+    .banner, .category{
+        width: 100%;
+    }
+}
+
+
 /* ....................................Signup page.......................................................... */
 
 section{
     padding: 100px 0;
 }
 
-.side-image{
+/* .side-image{
     border: 2px solid red;
-}
+} */
 .side-image img{
     width: -webkit-fill-available;
     height: 100%;

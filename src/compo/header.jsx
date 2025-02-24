@@ -8,6 +8,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 function header() {
   return (
     <>
+    
     <div className='UpperHeader' >
       <div className='headerdiv'>
       <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href='/'>ShopNow</a></p>
