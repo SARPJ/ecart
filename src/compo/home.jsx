@@ -1,6 +1,7 @@
 
-// import React from "react";
+
 import Slider from "react-slick";
+import CountdownTimer from "./CountdownTimer";
 
 function home() {
   var settings = {
@@ -12,6 +13,7 @@ function home() {
     slidesToShow: 1,
     slidesToScroll: 1
   };
+  const targetDate = new Date(2025, 2, 28, 0, 0, 0).getTime(); // YYYY, MM-1, DD, HH, MM, SS
   return (
     <div className="container pt-5 pb-5">
 
@@ -20,7 +22,7 @@ function home() {
     
       <div className="category ">
       <ul className="list-group list-group-flush badge">
-        <li className="list-group-item border border-white">An item</li>
+        <li className="list-group-item border border-white"><a href="#box">Box</a></li>
         <li className="list-group-item border border-white">A second item</li>
         <li className="list-group-item border border-white">A third item</li>
         <li className="list-group-item border border-white">A fourth item</li>
@@ -29,7 +31,6 @@ function home() {
         <li className="list-group-item border border-white">A fourth item</li>
         <li className="list-group-item border border-white">And a fifth one</li>
         <li className="list-group-item border border-white">A third item</li>
-   
       </ul>
       </div>
     
@@ -47,6 +48,18 @@ function home() {
      </Slider>
      </div>
      </div>
+
+     <div className="container pt-5 pb-5">
+       <div className="title_">
+        <h6>Todays</h6>
+       </div>
+       
+      <h1 className="text-3xl font-bold mb-4">Flesh Sale</h1>
+      <CountdownTimer targetDate={targetDate} />
+    
+      
+     </div>
+  
       </div>
       
   
