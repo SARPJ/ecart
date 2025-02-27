@@ -26,7 +26,7 @@ const CountdownTimer = ({ targetDate }) => {
   }, []);
 
   return (
-    <div className="flex justify-center flex-row">
+    <div className="flex justify-center border border-danger counrerr">
       <div className=" rounded-lg text-center">
         <span className="text-red-400 text-sm">Days</span>
         <p>{String(timeLeft.days).padStart(2, "0")}</p>
