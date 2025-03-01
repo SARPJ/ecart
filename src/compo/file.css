@@ -142,13 +142,18 @@ a{
 .countdown span {
     display: block;
     font-size: 1rem;
-    color: #ff4d4d;
+    /* color: #ff4d4d; */
 }
 
 .counrerr{
     width: min-content;
     display: flex;
     
+}
+.lower_title{
+    display: flex; 
+    /* border: 2px solid blue; */
+    justify-content: space-between;
 }
 
 

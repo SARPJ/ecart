@@ -54,11 +54,13 @@ function home() {
         <h6>Todays</h6>
        </div>
        
-      <h1 className="text-3xl font-bold mb-4">Flesh Sale</h1>
-      <CountdownTimer targetDate={targetDate} />
+       <div className="lower_title">
+       <h1 className="text-3xl font-bold mb-4">Flesh Sale</h1>
+       <CountdownTimer targetDate={targetDate} />
+       
+       </div>
     
-      
-     </div>
+      </div>
   
       </div>
       
